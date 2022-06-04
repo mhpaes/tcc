@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@100;300;900&display=swap');
+
+html {
+    overflow-y: scroll;
+}
+
+/* Força uma barra de rolagem quando a janela de visualização é maior que o conteúdo do site CSS3 */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Oswald, sans-serif;
+    color: #919191;
+    background-color: #353535;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+html[xmlns] .clear {
+    display: block;
+}
+
+* html .clear {
+    height: 1%;
+}
+
+div.coluna {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.page, .page a {
+    color: #2e7c42;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.page h3 {
+    margin-top: 20px;
+    color: #1487b4;
+    padding: 0;
+}
+
+.page p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: justify;
+    color: #000000;
+    text-indent: 25px;
+    font-size: 18px;
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+#header, #container, #footer, #copyright, #slider {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#header {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header #hgroup {
+    padding: 10px 0;
+}
+
+#header #hgroup h1 {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#header #hgroup h2 {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+#header nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid #DEDEDE;
+}
+
+#header nav li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+#header nav li.last {
+    margin-right: 0;
+}
+
+#header nav li a:hover {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+
+#header #hgroup h1, #header #hgroup h2 {
+    font-weight: normal;
+    text-transform: none;
+}
+
+#header nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid #DEDEDE;
+}
+
+#header nav li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+#header nav li.last {
+    margin-right: 0;
+}
+
+#header nav li a:hover {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
